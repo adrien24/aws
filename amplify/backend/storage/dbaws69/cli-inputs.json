@@ -1,0 +1,10 @@
+{
+  "resourceName": "dbaws69",
+  "tableName": "dbaws69",
+  "partitionKey": {
+    "fieldName": "index",
+    "fieldType": "number"
+  },
+  "gsi": [],
+  "triggerFunctions": []
+}

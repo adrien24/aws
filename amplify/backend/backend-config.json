@@ -1,1 +1,8 @@
-{}
+{
+  "storage": {
+    "dbaws69": {
+      "providerPlugin": "awscloudformation",
+      "service": "DynamoDB"
+    }
+  }
+}
