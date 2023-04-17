@@ -23,6 +23,17 @@
       "StackName": "amplify-aws69-backend-110500",
       "StackId": "arn:aws:cloudformation:eu-west-1:341557181128:stack/amplify-aws69-backend-110500/ef2337e0-dcfe-11ed-9917-0aadc94f49a3",
       "AmplifyAppId": "djyqgsyi2aen4"
+    },
+    "categories": {
+      "function": {
+        "create": {
+          "deploymentBucketName": "amplify-aws69-backend-110500-deployment",
+          "s3Key": "amplify-builds/create-2f6557394e67522f7234-build.zip"
+        }
+      },
+      "storage": {
+        "dbaws": {}
+      }
     }
   }
 }

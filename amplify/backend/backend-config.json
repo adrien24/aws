@@ -1,6 +1,42 @@
 {
+  "function": {
+    "create": {
+      "build": true,
+      "dependsOn": [
+        {
+          "attributes": [
+            "Name",
+            "Arn",
+            "StreamArn"
+          ],
+          "category": "storage",
+          "resourceName": "dbaws"
+        }
+      ],
+      "providerPlugin": "awscloudformation",
+      "service": "Lambda"
+    }
+  },
+  "parameters": {
+    "AMPLIFY_function_create_deploymentBucketName": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "create"
+        }
+      ]
+    },
+    "AMPLIFY_function_create_s3Key": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "create"
+        }
+      ]
+    }
+  },
   "storage": {
-    "dbaws69": {
+    "dbaws": {
       "providerPlugin": "awscloudformation",
       "service": "DynamoDB"
     }

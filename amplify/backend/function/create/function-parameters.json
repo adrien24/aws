@@ -1,0 +1,13 @@
+{
+  "lambdaLayers": [],
+  "permissions": {
+    "storage": {
+      "dbaws": [
+        "create",
+        "read",
+        "update",
+        "delete"
+      ]
+    }
+  }
+}

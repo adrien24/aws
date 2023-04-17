@@ -1,0 +1,10 @@
+{
+  "resourceName": "dbaws",
+  "tableName": "dbaws",
+  "partitionKey": {
+    "fieldName": "id",
+    "fieldType": "string"
+  },
+  "gsi": [],
+  "triggerFunctions": []
+}
